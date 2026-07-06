@@ -38,8 +38,6 @@ cd femlinux-downloader
   En Debian / Ubuntu / antiX:
   sudo apt install ffmpeg python3-tk
 
-  En Arch Linux: 
-  sudo pacman -S ffmpeg tk
   
 3. **Instalá las librerías necesarias de Python / Install the required Python libraries**
 
