@@ -33,7 +33,7 @@ La aplicación se ejecuta a través de su código fuente de forma universal para
 git clone [https://github.com/femmlinux/femlinux-downloader.git](https://github.com/femmlinux/femlinux-downloader.git)
 cd femlinux-downloader
 
-2. Instalá las dependencias del sistema (requiere ffmpeg y herramientas gráficas)/Install system dependencies (ffmpeg and GUI toolkit are required)
+2. **Instalá las dependencias del sistema (requiere ffmpeg y herramientas gráficas)/Install system dependencies (ffmpeg and GUI toolkit are required)**
    
   En Debian / Ubuntu / antiX:
   sudo apt install ffmpeg python3-tk
@@ -41,11 +41,11 @@ cd femlinux-downloader
   En Arch Linux: 
   sudo pacman -S ffmpeg tk
   
-3. Instalá las librerías necesarias de Python / Install the required Python libraries
+3. **Instalá las librerías necesarias de Python / Install the required Python libraries**
 
   pip install yt-dlp tkinterdnd2
 
-4. Iniciá la aplicación / Launch the application
+4. **Iniciá la aplicación / Launch the application**
 
   python femlinux-downloader.py
 
