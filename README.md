@@ -21,3 +21,34 @@ An automatic YouTube download manager designed to recover your own files quickly
 This application was created as a personal utility tool, primarily intended to allow creators to download and recover their own videos in the event of losing the original files.
 
 **I am not responsible for how this application is used.** Downloading unauthorized third-party content and its subsequent distribution constitutes a copyright violation, a practice I do not agree with nor encourage under any circumstances. The use of this software to download copyrighted material is the sole and strict responsibility of the end user.
+
+## 📥 Instalación / Cómo usar (Linux)  Installation / How to use (Linux)
+
+The application runs directly from its source code and is universal for any Linux distribution. Follow these steps to set it up on your system:
+
+La aplicación se ejecuta a través de su código fuente de forma universal para cualquier distribución de Linux. Sigue estos pasos para prepararla en tu sistema:
+
+1. **Cloná este repositorio / Clone this repository:**
+
+git clone [https://github.com/femmlinux/femlinux-downloader.git](https://github.com/femmlinux/femlinux-downloader.git)
+cd femlinux-downloader
+
+2. Instalá las dependencias del sistema (requiere ffmpeg y herramientas gráficas)/Install system dependencies (ffmpeg and GUI toolkit are required)
+   
+  En Debian / Ubuntu / antiX:
+  sudo apt install ffmpeg python3-tk
+
+  En Arch Linux: 
+  sudo pacman -S ffmpeg tk
+  
+3. Instalá las librerías necesarias de Python / Install the required Python libraries
+
+  pip install yt-dlp tkinterdnd2
+
+4. Iniciá la aplicación / Launch the application
+
+  python femlinux-downloader.py
+
+  
+   
+   
