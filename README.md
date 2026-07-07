@@ -41,6 +41,7 @@ Abrí una terminal en la carpeta donde descargaste el archivo (generalmente ~/De
 Bash
 
 sudo apt update
+
 sudo apt install ./femlinux-downloader_3.1-1_amd64.deb
 
 (Nota: Usar apt install ./paquete.deb es recomendable porque resuelve e instala automáticamente dependencias como ffmpeg y python3-tk si te faltan).
