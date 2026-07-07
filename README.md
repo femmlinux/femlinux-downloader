@@ -42,7 +42,6 @@ Descargá el archivo llamado femlinux-downloader_3.1-1_amd64.deb desde la secci�
 
 2. Instalar desde la terminal:
 Abrí una terminal en la carpeta donde descargaste el archivo (generalmente ~/Descargas) y ejecutá los siguientes comandos:
-Bash
 
 sudo apt update
 
@@ -61,7 +60,6 @@ Descargá el archivo llamado femlinux-downloader-3.1-2-x86_64.pkg.tar.zst desde 
 
 2. Instalar con pacman:
 Abrí la terminal en el directorio de descarga e instalá el paquete localmente ejecutando:
-Bash
 
 sudo pacman -U femlinux-downloader-3.1-2-x86_64.pkg.tar.zst
 
@@ -76,7 +74,6 @@ Descargá el archivo que se llama simplemente femlinux-downloader (pesa alrededo
 
 2. Dar permisos de ejecución:
 Abrí la terminal donde descargaste el archivo y dale permisos para ejecutarse:
-Bash
 
 chmod +x femlinux-downloader
 
@@ -101,9 +98,9 @@ Download the file named femlinux-downloader_3.1-1_amd64.deb from the Releases se
 
 2. Install from the terminal:
 Open a terminal in the folder where you downloaded the file (usually ~/Downloads) and run the following commands:
-Bash
 
 sudo apt update
+
 sudo apt install ./femlinux-downloader_3.1-1_amd64.deb
 
 (Note: Using apt install ./package.deb is recommended because it automatically resolves and installs dependencies like ffmpeg and python3-tk if they are missing).
@@ -119,7 +116,6 @@ Download the file named femlinux-downloader-3.1-2-x86_64.pkg.tar.zst from the Re
 
 2. Install with pacman:
 Open a terminal in the download directory and install the local package by running:
-Bash
 
 sudo pacman -U femlinux-downloader-3.1-2-x86_64.pkg.tar.zst
 
@@ -134,7 +130,6 @@ Download the file simply named femlinux-downloader (it weighs around 29 MB).
 
 2. Grant execution permissions:
 Open the terminal where you downloaded the file and make it executable:
-Bash
 
 chmod +x femlinux-downloader
 
@@ -143,6 +138,5 @@ Make sure you have ffmpeg and tk (or python3-tk) installed using your distributi
 
 4. Run:
 Double-click the file or run it from the terminal with:
-Bash
 
 ./femlinux-downloader
